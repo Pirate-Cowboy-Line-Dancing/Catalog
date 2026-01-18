@@ -1,178 +1,699 @@
 
 [
-  {"song":"Boot Scootin' Boogie","artist":"Brooks & Dunn","dance":"Boot Scootin' Boogie","link":"https://example.com/boot-scootin-boogie.pdf"},
-  {"song":"Neon Moon","artist":"Brooks & Dunn","dance":"Neon Moon EZ","link":"https://example.com/neon-moon-ez.pdf"},
-  {"song":"Fishin' in the Dark","artist":"Nitty Gritty Dirt Band","dance":"Fishin' Shuffle","link":"https://example.com/fishin-shuffle.pdf"},
-  {"song":"Tennessee Whiskey","artist":"Chris Stapleton","dance":"Tennessee Waltz Surprise","link":"https://example.com/tennessee-waltz-surprise.pdf"},
-  {"song":"Whiskey Glasses","artist":"Morgan Wallen","dance":"Whiskey Walk","link":"https://example.com/whiskey-walk.pdf"},
-  {"song":"Fancy Like","artist":"Walker Hayes","dance":"Fancy Like (Improver)","link":"https://example.com/fancy-like-improver.pdf"},
-  {"song":"Chattahoochee","artist":"Alan Jackson","dance":"Chattahoochee","link":"https://example.com/chattahoochee.pdf"},
-  {"song":"Watermelon Crawl","artist":"Tracy Byrd","dance":"Watermelon Crawl","link":"https://example.com/watermelon-crawl.pdf"},
-  {"song":"My Maria","artist":"Brooks & Dunn","dance":"Maria High","link":"https://example.com/maria-high.pdf"},
-  {"song":"Wagon Wheel","artist":"Darius Rucker","dance":"Wagon Wheel Rock","link":"https://example.com/wagon-wheel-rock.pdf"},
-
-  {"song":"Beer Never Broke My Heart","artist":"Luke Combs","dance":"Beer Never Broke My Heart","link":"https://example.com/beer-never.pdf"},
-  {"song":"Brand New Man","artist":"Brooks & Dunn","dance":"Brand New Man 2 Wall","link":"https://example.com/brand-new-man.pdf"},
-  {"song":"Country Girl (Shake It for Me)","artist":"Luke Bryan","dance":"Country Girl Shake","link":"https://example.com/country-girl-shake.pdf"},
-  {"song":"Save a Horse (Ride a Cowboy)","artist":"Big & Rich","dance":"Ride A Cowboy","link":"https://example.com/ride-a-cowboy.pdf"},
-  {"song":"Barefoot Blue Jean Night","artist":"Jake Owen","dance":"Barefoot Blue Jean","link":"https://example.com/barefoot.pdf"},
-  {"song":"Cruise","artist":"Florida Georgia Line","dance":"Cruise","link":"https://example.com/cruise.pdf"},
-  {"song":"House Party","artist":"Sam Hunt","dance":"House Party EZ","link":"https://example.com/house-party-ez.pdf"},
-  {"song":"American Kids","artist":"Kenny Chesney","dance":"American Kids","link":"https://example.com/american-kids.pdf"},
-  {"song":"Pontoon","artist":"Little Big Town","dance":"Pontoon","link":"https://example.com/pontoon.pdf"},
-  {"song":"Gentle On My Mind","artist":"The Band Perry","dance":"Gentle Glide","link":"https://example.com/gentle-glide.pdf"},
-
-  {"song":"Cowboy Take Me Away","artist":"The Chicks","dance":"Cowboy Take Me Away","link":"https://example.com/cowboy-take-me-away.pdf"},
-  {"song":"Man! I Feel Like a Woman!","artist":"Shania Twain","dance":"Woman!","link":"https://example.com/woman.pdf"},
-  {"song":"Any Man of Mine","artist":"Shania Twain","dance":"Any Man","link":"https://example.com/any-man.pdf"},
-  {"song":"Copperhead Road","artist":"Steve Earle","dance":"Copperhead Road","link":"https://example.com/copperhead-road.pdf"},
-  {"song":"Amazed","artist":"Lonestar","dance":"Amazed Waltz","link":"https://example.com/amazed-waltz.pdf"},
-  {"song":"Bless the Broken Road","artist":"Rascal Flatts","dance":"Broken Road Waltz","link":"https://example.com/broken-road-waltz.pdf"},
-  {"song":"Die a Happy Man","artist":"Thomas Rhett","dance":"Happy Man","link":"https://example.com/happy-man.pdf"},
-  {"song":"H.O.L.Y.","artist":"Florida Georgia Line","dance":"Holy Hearts","link":"https://example.com/holy-hearts.pdf"},
-  {"song":"Blue Ain't Your Color","artist":"Keith Urban","dance":"Blue Ain't Your Cha","link":"https://example.com/blue-aint-your-cha.pdf"},
-  {"song":"Springsteen","artist":"Eric Church","dance":"Springsteen Stroll","link":"https://example.com/springsteen-stroll.pdf"},
-
-  {"song":"Footloose","artist":"Blake Shelton","dance":"Footloose 2020","link":"https://example.com/footloose-2020.pdf"},
-  {"song":"Friends in Low Places","artist":"Garth Brooks","dance":"Low Places","link":"https://example.com/low-places.pdf"},
-  {"song":"The Dance","artist":"Garth Brooks","dance":"The Dance Waltz","link":"https://example.com/the-dance-waltz.pdf"},
-  {"song":"Achy Breaky Heart","artist":"Billy Ray Cyrus","dance":"Achy Breaky","link":"https://example.com/achy-breaky.pdf"},
-  {"song":"Good Time","artist":"Niko Moon","dance":"Good Time Roll","link":"https://example.com/good-time-roll.pdf"},
-  {"song":"Head Over Boots","artist":"Jon Pardi","dance":"Head Over Boots EZ","link":"https://example.com/head-over-boots-ez.pdf"},
-  {"song":"Night Shift","artist":"Jon Pardi","dance":"Night Shift","link":"https://example.com/night-shift.pdf"},
-  {"song":"Dirt On My Boots","artist":"Jon Pardi","dance":"Dirt On My Boots","link":"https://example.com/dirt-on-my-boots.pdf"},
-  {"song":"Take My Name","artist":"Parmalee","dance":"Take My Name","link":"https://example.com/take-my-name.pdf"},
-  {"song":"Heart Like a Truck","artist":"Lainey Wilson","dance":"Truckin' Heart","link":"https://example.com/truckin-heart.pdf"},
-
-  {"song":"Buy Dirt","artist":"Jordan Davis ft. Luke Bryan","dance":"Buy Dirt","link":"https://example.com/buy-dirt.pdf"},
-  {"song":"Last Night","artist":"Morgan Wallen","dance":"Last Night EZ","link":"https://example.com/last-night-ez.pdf"},
-  {"song":"Thought You Should Know","artist":"Morgan Wallen","dance":"You Should Know","link":"https://example.com/you-should-know.pdf"},
-  {"song":"Cowgirls","artist":"Morgan Wallen ft. ERNEST","dance":"Cowgirls","link":"https://example.com/cowgirls.pdf"},
-  {"song":"5 Foot 9","artist":"Tyler Hubbard","dance":"5 Foot 9","link":"https://example.com/5foot9.pdf"},
-  {"song":"Dancin' in the Country","artist":"Tyler Hubbard","dance":"Dancin' in the Country","link":"https://example.com/dancin-in-the-country.pdf"},
-  {"song":"Flower Shops","artist":"ERNEST ft. Morgan Wallen","dance":"Flower Waltz","link":"https://example.com/flower-waltz.pdf"},
-  {"song":"Til You Can't","artist":"Cody Johnson","dance":"Til You Can't","link":"https://example.com/til-you-cant.pdf"},
-  {"song":"'Til You Can't (Remix)","artist":"Cody Johnson","dance":"Can't Stop Now","link":"https://example.com/cant-stop-now.pdf"},
-  {"song":"Something in the Orange","artist":"Zach Bryan","dance":"Orange Sky","link":"https://example.com/orange-sky.pdf"},
-
-  {"song":"Where the Wild Things Are","artist":"Luke Combs","dance":"Wild Things","link":"https://example.com/wild-things.pdf"},
-  {"song":"Hurricane","artist":"Luke Combs","dance":"Hurricane","link":"https://example.com/hurricane.pdf"},
-  {"song":"Beautiful Crazy","artist":"Luke Combs","dance":"Beautiful Crazy","link":"https://example.com/beautiful-crazy.pdf"},
-  {"song":"Lovin' On You","artist":"Luke Combs","dance":"Lovin' On You","link":"https://example.com/lovin-on-you.pdf"},
-  {"song":"One Margarita","artist":"Luke Bryan","dance":"One Margarita","link":"https://example.com/one-margarita.pdf"},
-  {"song":"Play It Again","artist":"Luke Bryan","dance":"Play It Again","link":"https://example.com/play-it-again.pdf"},
-  {"song":"Huntin', Fishin' and Lovin' Every Day","artist":"Luke Bryan","dance":"HFL Everyday","link":"https://example.com/hfl-everyday.pdf"},
-  {"song":"Drink In My Hand","artist":"Eric Church","dance":"Drink In My Hand","link":"https://example.com/drink-in-my-hand.pdf"},
-  {"song":"Record Year","artist":"Eric Church","dance":"Record Year","link":"https://example.com/record-year.pdf"},
-  {"song":"Save It for a Rainy Day","artist":"Kenny Chesney","dance":"Rainy Day","link":"https://example.com/rainy-day.pdf"},
-
-  {"song":"Summertime","artist":"Kenny Chesney","dance":"Summertime Sway","link":"https://example.com/summertime-sway.pdf"},
-  {"song":"Get Along","artist":"Kenny Chesney","dance":"Get Along","link":"https://example.com/get-along.pdf"},
-  {"song":"Sideways","artist":"Dierks Bentley","dance":"Sideways Shuffle","link":"https://example.com/sideways-shuffle.pdf"},
-  {"song":"Burning Man","artist":"Dierks Bentley","dance":"Burning Man","link":"https://example.com/burning-man.pdf"},
-  {"song":"What Was I Thinkin'","artist":"Dierks Bentley","dance":"Thinkin' Improver","link":"https://example.com/thinkin-improver.pdf"},
-  {"song":"Me and My Kind","artist":"Cody Johnson","dance":"My Kind","link":"https://example.com/my-kind.pdf"},
-  {"song":"On My Way to You","artist":"Cody Johnson","dance":"On My Way Waltz","link":"https://example.com/on-my-way-waltz.pdf"},
-  {"song":"Rainbow","artist":"Kacey Musgraves","dance":"Rainbow Waltz","link":"https://example.com/rainbow-waltz.pdf"},
-  {"song":"Follow Your Arrow","artist":"Kacey Musgraves","dance":"Arrow EZ","link":"https://example.com/arrow-ez.pdf"},
-  {"song":"Slow Burn","artist":"Kacey Musgraves","dance":"Slow Burn","link":"https://example.com/slow-burn.pdf"},
-
-  {"song":"Bluebird","artist":"Miranda Lambert","dance":"Bluebird","link":"https://example.com/bluebird.pdf"},
-  {"song":"Mama's Broken Heart","artist":"Miranda Lambert","dance":"Broken Heart","link":"https://example.com/broken-heart.pdf"},
-  {"song":"The House That Built Me","artist":"Miranda Lambert","dance":"House Waltz","link":"https://example.com/house-waltz.pdf"},
-  {"song":"God's Country","artist":"Blake Shelton","dance":"God's Country","link":"https://example.com/gods-country.pdf"},
-  {"song":"Neon Light","artist":"Blake Shelton","dance":"Neon Light","link":"https://example.com/neon-light.pdf"},
-  {"song":"Body Like a Back Road","artist":"Sam Hunt","dance":"Back Road","link":"https://example.com/back-road.pdf"},
-  {"song":"Take Your Time","artist":"Sam Hunt","dance":"Take Your Time","link":"https://example.com/take-your-time.pdf"},
-  {"song":"Cruise (Remix)","artist":"Florida Georgia Line","dance":"Cruise Remix","link":"https://example.com/cruise-remix.pdf"},
-  {"song":"Round Here","artist":"Florida Georgia Line","dance":"Round Here","link":"https://example.com/round-here.pdf"},
-  {"song":"God Gave Me You","artist":"Blake Shelton","dance":"Gave Me You","link":"https://example.com/gave-me-you.pdf"},
-
-  {"song":"Drink A Beer","artist":"Luke Bryan","dance":"Drink A Beer","link":"https://example.com/drink-a-beer.pdf"},
-  {"song":"Tequila","artist":"Dan + Shay","dance":"Tequila Waltz","link":"https://example.com/tequila-waltz.pdf"},
-  {"song":"Speechless","artist":"Dan + Shay","dance":"Speechless","link":"https://example.com/speechless.pdf"},
-  {"song":"Die From A Broken Heart","artist":"Maddie & Tae","dance":"Broken Heart EZ","link":"https://example.com/broken-heart-ez.pdf"},
-  {"song":"Girl In A Country Song","artist":"Maddie & Tae","dance":"Country Girl Spin","link":"https://example.com/country-girl-spin.pdf"},
-  {"song":"Ten Thousand Hours","artist":"Dan + Shay, Justin Bieber","dance":"Ten Thousand","link":"https://example.com/ten-thousand.pdf"},
-  {"song":"Made For You","artist":"Jake Owen","dance":"Made For You","link":"https://example.com/made-for-you.pdf"},
-  {"song":"I Was Jack (You Were Diane)","artist":"Jake Owen","dance":"Jack & Diane","link":"https://example.com/jack-diane.pdf"},
-  {"song":"You Broke Up with Me","artist":"Walker Hayes","dance":"Broke Up With Me","link":"https://example.com/broke-up-with-me.pdf"},
-  {"song":"90's Country","artist":"Walker Hayes","dance":"90's Country","link":"https://example.com/90s-country.pdf"},
-
-  {"song":"AA","artist":"Walker Hayes","dance":"AA EZ","link":"https://example.com/aa-ez.pdf"},
-  {"song":"Fancy Like (Acoustic)","artist":"Walker Hayes","dance":"Fancy Like ACO","link":"https://example.com/fancy-like-aco.pdf"},
-  {"song":"Blue Tacoma","artist":"Russell Dickerson","dance":"Blue Tacoma","link":"https://example.com/blue-tacoma.pdf"},
-  {"song":"Yours","artist":"Russell Dickerson","dance":"Yours Waltz","link":"https://example.com/yours-waltz.pdf"},
-  {"song":"Home Sweet","artist":"Russell Dickerson","dance":"Home Sweet","link":"https://example.com/home-sweet.pdf"},
-  {"song":"Singles You Up","artist":"Jordan Davis","dance":"Singles You Up","link":"https://example.com/singles-you-up.pdf"},
-  {"song":"Take It From Me","artist":"Jordan Davis","dance":"Take It From Me","link":"https://example.com/take-it-from-me.pdf"},
-  {"song":"Slow Dance In A Parking Lot","artist":"Jordan Davis","dance":"Parking Lot Waltz","link":"https://example.com/parking-lot-waltz.pdf"},
-  {"song":"Good As You","artist":"Kane Brown","dance":"Good As You","link":"https://example.com/good-as-you.pdf"},
-  {"song":"Heaven","artist":"Kane Brown","dance":"Heaven","link":"https://example.com/heaven.pdf"},
-
-  {"song":"Famous Friends","artist":"Chris Young & Kane Brown","dance":"Famous Friends","link":"https://example.com/famous-friends.pdf"},
-  {"song":"Raised on Country","artist":"Chris Young","dance":"Raised on Country","link":"https://example.com/raised-on-country.pdf"},
-  {"song":"Drowning","artist":"Chris Young","dance":"Drowning","link":"https://example.com/drowning.pdf"},
-  {"song":"Singles You Up (Remix)","artist":"Jordan Davis","dance":"Singles Remix","link":"https://example.com/singles-remix.pdf"},
-  {"song":"Better Man","artist":"Little Big Town","dance":"Better Man","link":"https://example.com/better-man.pdf"},
-  {"song":"Girl Crush","artist":"Little Big Town","dance":"Girl Crush","link":"https://example.com/girl-crush.pdf"},
-  {"song":"Pontoon (Live)","artist":"Little Big Town","dance":"Pontoon Live","link":"https://example.com/pontoon-live.pdf"},
-  {"song":"From The Ground Up","artist":"Dan + Shay","dance":"Ground Up Waltz","link":"https://example.com/ground-up-waltz.pdf"},
-  {"song":"Body Language","artist":"Carly Pearce","dance":"Body Language","link":"https://example.com/body-language.pdf"},
-  {"song":"I Hope You’re Happy Now","artist":"Carly Pearce & Lee Brice","dance":"Happy Now","link":"https://example.com/happy-now.pdf"},
-
-  {"song":"Every Little Thing","artist":"Carly Pearce","dance":"Every Little Waltz","link":"https://example.com/every-little-waltz.pdf"},
-  {"song":"Burning House","artist":"Cam","dance":"Burning House","link":"https://example.com/burning-house.pdf"},
-  {"song":"May We All","artist":"Florida Georgia Line ft. Tim McGraw","dance":"May We All","link":"https://example.com/may-we-all.pdf"},
-  {"song":"Dirt","artist":"Florida Georgia Line","dance":"Dirt","link":"https://example.com/dirt.pdf"},
-  {"song":"Simple","artist":"Florida Georgia Line","dance":"Simple","link":"https://example.com/simple.pdf"},
-  {"song":"Small Town Boy","artist":"Dustin Lynch","dance":"Small Town Boy","link":"https://example.com/small-town-boy.pdf"},
-  {"song":"Ridin' Roads","artist":"Dustin Lynch","dance":"Ridin' Roads","link":"https://example.com/ridin-roads.pdf"},
-  {"song":"Mind Reader","artist":"Dustin Lynch","dance":"Mind Reader","link":"https://example.com/mind-reader.pdf"},
-  {"song":"Die A Happy Man (Acoustic)","artist":"Thomas Rhett","dance":"Happy Man ACO","link":"https://example.com/happy-man-aco.pdf"},
-  {"song":"Make Me Wanna","artist":"Thomas Rhett","dance":"Make Me Wanna","link":"https://example.com/make-me-wanna.pdf"},
-
-  {"song":"Beer With My Friends","artist":"Kenny Chesney","dance":"Beer With My Friends","link":"https://example.com/beer-friends.pdf"},
-  {"song":"Cruise Night","artist":"Parmalee","dance":"Cruise Night","link":"https://example.com/cruise-night.pdf"},
-  {"song":"Take Her Home","artist":"Kenny Chesney","dance":"Take Her Home","link":"https://example.com/take-her-home.pdf"},
-  {"song":"Sunrise, Sunburn, Sunset","artist":"Luke Bryan","dance":"Sunrise Sunburn","link":"https://example.com/sunrise-sunburn.pdf"},
-  {"song":"Hotel Key","artist":"Old Dominion","dance":"Hotel Key","link":"https://example.com/hotel-key.pdf"},
-  {"song":"One Man Band","artist":"Old Dominion","dance":"One Man Band","link":"https://example.com/one-man-band.pdf"},
-  {"song":"Snapback","artist":"Old Dominion","dance":"Snapback","link":"https://example.com/snapback.pdf"},
-  {"song":"Written in the Sand","artist":"Old Dominion","dance":"Written In The Sand","link":"https://example.com/written-in-the-sand.pdf"},
-  {"song":"Tequila Little Time","artist":"Jon Pardi","dance":"Tequila Little Time","link":"https://example.com/tequila-little-time.pdf"},
-  {"song":"Heartache Medication","artist":"Jon Pardi","dance":"Heartache Medication","link":"https://example.com/heartache-medication.pdf"},
-
-  {"song":"Long Live","artist":"Florida Georgia Line","dance":"Long Live","link":"https://example.com/long-live.pdf"},
-  {"song":"More Than My Hometown","artist":"Morgan Wallen","dance":"More Than My Hometown","link":"https://example.com/more-than-my-hometown.pdf"},
-  {"song":"Sand In My Boots","artist":"Morgan Wallen","dance":"Sand In My Boots","link":"https://example.com/sand-in-my-boots.pdf"},
-  {"song":"Up Down","artist":"Morgan Wallen ft. FGL","dance":"Up Down","link":"https://example.com/up-down.pdf"},
-  {"song":"Heartless","artist":"Diplo feat. Morgan Wallen","dance":"Heartless","link":"https://example.com/heartless.pdf"},
-  {"song":"Prayed For You","artist":"Matt Stell","dance":"Prayed For You","link":"https://example.com/prayed-for-you.pdf"},
-  {"song":"Every Little Honky Tonk Bar","artist":"George Strait","dance":"Honky Tonk Bar","link":"https://example.com/honky-tonk-bar.pdf"},
-  {"song":"Troubadour","artist":"George Strait","dance":"Troubadour","link":"https://example.com/troubadour.pdf"},
-  {"song":"Check Yes or No","artist":"George Strait","dance":"Check Yes or No","link":"https://example.com/check-yes-or-no.pdf"},
-  {"song":"Write This Down","artist":"George Strait","dance":"Write This Down","link":"https://example.com/write-this-down.pdf"},
-
-  {"song":"It Happens Like That","artist":"Granger Smith","dance":"Happens Like That","link":"https://example.com/happens-like-that.pdf"},
-  {"song":"Backroad Song","artist":"Granger Smith","dance":"Backroad Song","link":"https://example.com/backroad-song.pdf"},
-  {"song":"Chicken Fried","artist":"Zac Brown Band","dance":"Chicken Fried","link":"https://example.com/chicken-fried.pdf"},
-  {"song":"Toes","artist":"Zac Brown Band","dance":"Toes","link":"https://example.com/toes.pdf"},
-  {"song":"Knee Deep","artist":"Zac Brown Band","dance":"Knee Deep","link":"https://example.com/knee-deep.pdf"},
-  {"song":"Colder Weather","artist":"Zac Brown Band","dance":"Colder Weather Waltz","link":"https://example.com/colder-weather-waltz.pdf"},
-  {"song":"Somewhere On A Beach","artist":"Dierks Bentley","dance":"On A Beach","link":"https://example.com/on-a-beach.pdf"},
-  {"song":"H.O.L.Y. (Piano)","artist":"Florida Georgia Line","dance":"Holy Piano","link":"https://example.com/holy-piano.pdf"},
-  {"song":"Church Bells","artist":"Carrie Underwood","dance":"Church Bells","link":"https://example.com/church-bells.pdf"},
-  {"song":"Before He Cheats","artist":"Carrie Underwood","dance":"Before He Cheats","link":"https://example.com/before-he-cheats.pdf"},
-
-  {"song":"All-American Girl","artist":"Carrie Underwood","dance":"All-American Girl","link":"https://example.com/all-american-girl.pdf"},
-  {"song":"Fast Car (Country Version)","artist":"Luke Combs","dance":"Fast Car EZ","link":"https://example.com/fast-car-ez.pdf"},
-  {"song":"Ocean Front Property","artist":"George Strait","dance":"Ocean Front","link":"https://example.com/ocean-front.pdf"},
-  {"song":"The Fighter","artist":"Keith Urban & Carrie Underwood","dance":"The Fighter","link":"https://example.com/the-fighter.pdf"},
-  {"song":"Long Hot Summer","artist":"Keith Urban","dance":"Long Hot Summer","link":"https://example.com/long-hot-summer.pdf"},
-  {"song":"Blue Ain't Your Color (WCS)","artist":"Keith Urban","dance":"Blue WCS","link":"https://example.com/blue-wcs.pdf"},
-  {"song":"Breathe You In","artist":"Cam","dance":"Breathe You In","link":"https://example.com/breathe-you-in.pdf"},
-  {"song":"A Country Boy Can Survive","artist":"Hank Williams Jr.","dance":"Boy Survive","link":"https://example.com/boy-survive.pdf"},
-  {"song":"Family Tradition","artist":"Hank Williams Jr.","dance":"Family Tradition","link":"https://example.com/family-tradition.pdf"},
-  {"song":"Boots On","artist":"Randy Houser","dance":"Boots On","link":"https://example.com/boots-on.pdf"}
+  {
+    "song": "1,2 Many",
+    "artist": "Luke Combs",
+    "dance": "Half Past Tipsy",
+    "link": "https://www.copperknob.co.uk/stepsheets/137347/half-past-tipsy"
+  },
+  {
+    "song": "Drinkaby",
+    "artist": "Cole Swindell",
+    "dance": "Drinkaby",
+    "link": "https://www.copperknob.co.uk/stepsheets/167800/drinkaby"
+  },
+  {
+    "song": "2 The Moon",
+    "artist": "Pitbull, Ne-Yo, AFROJACK, DJ Buddha",
+    "dance": "2 The Moon",
+    "link": "https://www.copperknob.co.uk/stepsheets/186131/2-the-moon"
+  },
+  {
+    "song": "21 Reasons (feat. Ella Henderson)",
+    "artist": "Nathan Dawe",
+    "dance": "I Got 21 Reasons",
+    "link": "https://www.copperknob.co.uk/stepsheets/175862/i-got-21-reasons"
+  },
+  {
+    "song": "24K Magic",
+    "artist": "Bruno Mars",
+    "dance": "24K Magic",
+    "link": "https://www.copperknob.co.uk/stepsheets/115312/24k-magic"
+  },
+  {
+    "song": "3",
+    "artist": "Britney Spears",
+    "dance": "1, 2, 3",
+    "link": "https://www.copperknob.co.uk/stepsheets/189752/1-2-3"
+  },
+  {
+    "song": "3 Tequila Floor",
+    "artist": "Josiah Siska",
+    "dance": "3 Tequila Floor",
+    "link": "https://www.copperknob.co.uk/stepsheets/169311/3-tequila-floor"
+  },
+  {
+    "song": "3 to Tango",
+    "artist": "Pitbull",
+    "dance": "3 to Tango",
+    "link": "https://www.copperknob.co.uk/stepsheets/135946/3-to-tango"
+  },
+  {
+    "song": "A Bar Song (Tipsy)",
+    "artist": "Shaboozey",
+    "dance": "A Bar Song",
+    "link": "https://www.copperknob.co.uk/stepsheets/181815/a-bar-song"
+  },
+  {
+    "song": "Ain't Too Cool",
+    "artist": "Lunch money Lewis",
+    "dance": "Ain't Too Cool",
+    "link": "https://www.copperknob.co.uk/stepsheets/108592/aint-too-cool"
+  },
+  {
+    "song": "Ala-Freakin-Bama",
+    "artist": "Trace Adkins",
+    "dance": "Ala-Freakin-Bama",
+    "link": "https://www.copperknob.co.uk/stepsheets/131141/ala-freakin-bama"
+  },
+  {
+    "song": "American Kids",
+    "artist": "Kenny Chesney",
+    "dance": "American Kids",
+    "link": "https://www.copperknob.co.uk/stepsheets/98907/american-kids"
+  },
+  {
+    "song": "Austin (Boots Stop Workin')",
+    "artist": "Dasha",
+    "dance": "Austin",
+    "link": "https://www.copperknob.co.uk/stepsheets/179724/austin"
+  },
+  {
+    "song": "Back Then Right Now",
+    "artist": "Tyler Hubbard",
+    "dance": "Back Then Right Now",
+    "link": "https://www.copperknob.co.uk/stepsheets/175163/back-then-right-now"
+  },
+  {
+    "song": "Badd Remix",
+    "artist": "Ying Yang Twins, Mike Jones",
+    "dance": "Badd",
+    "link": "https://www.copperknob.co.uk/stepsheets/205503/badd"
+  },
+  {
+    "song": "Bang Bang",
+    "artist": "Jessie J, Ariana Grande, Nicki Minaj",
+    "dance": "Bang Bang (EZ)",
+    "link": "https://www.copperknob.co.uk/stepsheets/100226/bang-bang-ez"
+  },
+  {
+    "song": "Beers Ago",
+    "artist": "Toby Keith",
+    "dance": "Make You Mine",
+    "link": "https://www.copperknob.co.uk/stepsheets/111935/make-you-mine"
+  },
+  {
+    "song": "Boots on the Ground",
+    "artist": "803Fresh",
+    "dance": "Boots on the Ground (With Clacker Fan)",
+    "link": "https://www.copperknob.co.uk/stepsheets/191535/boots-on-the-ground-with-clacker-fan"
+  },
+  {
+    "song": "Boys",
+    "artist": "Lizzo",
+    "dance": "Boys",
+    "link": "https://www.copperknob.co.uk/stepsheets/134055/boys"
+  },
+  {
+    "song": "Brand New Girlfriend",
+    "artist": "Steve Holy",
+    "dance": "Cute! Cute! Cute!",
+    "link": "https://www.copperknob.co.uk/stepsheets/58372/cute-cute-cute"
+  },
+  {
+    "song": "Brand New Man",
+    "artist": "Brooks & Dunn",
+    "dance": "Brand New Man",
+    "link": "https://www.copperknob.co.uk/stepsheets/131515/brand-new-man"
+  },
+  {
+    "song": "Buy My Own Drinks",
+    "artist": "Runaway June",
+    "dance": "Buy My Own Drinks",
+    "link": "https://www.copperknob.co.uk/stepsheets/137356/buy-my-own-drinks"
+  },
+  {
+    "song": "Buzzkill",
+    "artist": "Lanie Gardner",
+    "dance": "The Buzzkill!",
+    "link": "https://www.copperknob.co.uk/stepsheets/191671/the-buzzkill"
+  },
+  {
+    "song": "Cake",
+    "artist": "The Ocean by DNCE",
+    "dance": "Shake It",
+    "link": "https://www.copperknob.co.uk/stepsheets/100727/shake-it"
+  },
+  {
+    "song": "Calling All the Monsters",
+    "artist": "China Anne McClain",
+    "dance": "Monsters",
+    "link": "https://www.copperknob.co.uk/stepsheets/188601/monsters"
+  },
+  {
+    "song": "Can't Stop The Feeling",
+    "artist": "Justin Timberlake",
+    "dance": "Rocket To The Sun",
+    "link": "https://www.copperknob.co.uk/stepsheets/92079/rocket-to-the-sun"
+  },
+  {
+    "song": "Club Can't Handle Me",
+    "artist": "Flo Rida, David Guetta",
+    "dance": "MGNO",
+    "link": "https://www.copperknob.co.uk/stepsheets/122388/mgno"
+  },
+  {
+    "song": "Coming Down High",
+    "artist": "Warren Zeiders",
+    "dance": "Coming Down High",
+    "link": "https://www.copperknob.co.uk/stepsheets/178574/coming-down-high"
+  },
+  {
+    "song": "Country Girl (Shake It For Me)",
+    "artist": "Luke Bryan",
+    "dance": "Country Girl Shake",
+    "link": "https://www.copperknob.co.uk/stepsheets/82657/country-girl-shake"
+  },
+  {
+    "song": "Cowboy",
+    "artist": "Kid Rock",
+    "dance": "Shotgun Jenny",
+    "link": "https://www.copperknob.co.uk/stepsheets/87543/shotgun-jenny"
+  },
+  {
+    "song": "Crank It Up",
+    "artist": "Colt Ford",
+    "dance": "Goin' Hamm",
+    "link": "https://www.copperknob.co.uk/stepsheets/160714/goin-hamm"
+  },
+  {
+    "song": "Cut 'Em All",
+    "artist": "Colt Ford",
+    "dance": "Double D",
+    "link": "https://www.copperknob.co.uk/stepsheets/104501/double-d-duck-dynasty"
+  },
+  {
+    "song": "Cut 'Em All",
+    "artist": "Colt Ford, Wille Robertson",
+    "dance": "Double D (Duck Dynasty)",
+    "link": "https://www.copperknob.co.uk/stepsheets/104501/double-d-duck-dynasty"
+  },
+  {
+    "song": "Damn I Love Miami",
+    "artist": "Pitbull and Lil Jon",
+    "dance": "Pieces To The Puzzle",
+    "link": "https://www.copperknob.co.uk/stepsheets/181791/pieces-to-the-puzzle"
+  },
+  {
+    "song": "Dance Her Home",
+    "artist": "Cody Johnson",
+    "dance": "Longbranch  Hustle (Partner)",
+    "link": "https://www.copperknob.co.uk/stepsheets/28823/longbranch-hustle-p"
+  },
+  {
+    "song": "Dancin' While Intoxicated (DWI)",
+    "artist": "Colt Ford (feat. LoCash Cowboys & Redneck Social Club)",
+    "dance": "Dancing While Intoxicated",
+    "link": "https://www.copperknob.co.uk/stepsheets/89534/dancing-while-intoxicated"
+  },
+  {
+    "song": "Delirious (Boneless) (feat. Kid Ink)",
+    "artist": "Steve Aoki, Chris Lake, Tujamo, Kid Ink",
+    "dance": "Delulu",
+    "link": "https://www.copperknob.co.uk/stepsheets/187716/delulu"
+  },
+  {
+    "song": "Down",
+    "artist": "Jay Sean feat. Lil Wayne",
+    "dance": "Down",
+    "link": "https://www.copperknob.co.uk/stepsheets/186404/down"
+  },
+  {
+    "song": "Drink In My Hand",
+    "artist": "Eric Church",
+    "dance": "A Drink In My Hand",
+    "link": "https://www.copperknob.co.uk/stepsheets/84659/a-drink-in-my-hand"
+  },
+  {
+    "song": "Drunk (And I Don't Wanna Go Home)",
+    "artist": "Elle King & Miranda Lambert GOLDHOUSE Remix",
+    "dance": "Gin & Tonic Kisses",
+    "link": "https://www.copperknob.co.uk/stepsheets/149087/gin-tonic-kisses"
+  },
+  {
+    "song": "Everything I Love",
+    "artist": "Morgan Wallen",
+    "dance": "One More Silver Dollar",
+    "link": "https://www.copperknob.co.uk/stepsheets/174328/one-more-silver-dollar"
+  },
+  {
+    "song": "Feels Right (I Love It)",
+    "artist": "Flo Rida & Brian Kelley",
+    "dance": "Feels Right (I Love It)",
+    "link": "https://www.copperknob.co.uk/stepsheets/182417/feels-right-i-love-it"
+  },
+  {
+    "song": "Fireball",
+    "artist": "Pitbull, John Ryan",
+    "dance": "Shake It",
+    "link": "https://www.copperknob.co.uk/stepsheets/100727/shake-it"
+  },
+  {
+    "song": "Fishin' in the Dark",
+    "artist": "Nitty Gritty Dirt Band",
+    "dance": "Stray Cat Strut",
+    "link": "https://youtu.be/ESawo8Nnh3Q"
+  },
+  {
+    "song": "Freight Train",
+    "artist": "Aaron Watson",
+    "dance": "Walk The Line",
+    "link": "https://www.copperknob.co.uk/stepsheets/45138/walk-the-line"
+  },
+  {
+    "song": "Friday Night",
+    "artist": "Eric Paslay",
+    "dance": "Power Jam",
+    "link": "https://www.copperknob.co.uk/stepsheets/81650/power-jam-san-diego-version"
+  },
+  {
+    "song": "Get Get Get Down",
+    "artist": "Pitbull, Tim McGraw, Vikina",
+    "dance": "I Want Some More Of It!",
+    "link": "https://www.copperknob.co.uk/stepsheets/179823/i-want-some-more-of-it"
+  },
+  {
+    "song": "Get Ugly",
+    "artist": "Jason Derulo",
+    "dance": "Get Ugly",
+    "link": "https://www.copperknob.co.uk/stepsheets/108054/get-ugly"
+  },
+  {
+    "song": "Getaway Truck",
+    "artist": "Aaron Watson",
+    "dance": "16 Step (Partner Dance)",
+    "link": "https://www.copperknob.co.uk/stepsheets/159579/16-step-aka-rebel-strut"
+  },
+  {
+    "song": "God Blessed Texas",
+    "artist": "Little Texas",
+    "dance": "God Blessed Texas",
+    "link": "https://www.copperknob.co.uk/stepsheets/53249/god-blessed-texas"
+  },
+  {
+    "song": "Good Time",
+    "artist": "Charlie Wilson (feat. Pitbull)",
+    "dance": "Everybody Have A Good Time",
+    "link": "https://www.copperknob.co.uk/stepsheets/116966/everybody-have-a-good-time"
+  },
+  {
+    "song": "High Horse",
+    "artist": "Nelly, BRELAND & Blanco Brown",
+    "dance": "High Horse",
+    "link": "https://www.copperknob.co.uk/stepsheets/153439/high-horse"
+  },
+  {
+    "song": "Hola",
+    "artist": "Flo Rida (feat Maluma)",
+    "dance": "Hola",
+    "link": "https://www.copperknob.co.uk/stepsheets/122006/hola"
+  },
+  {
+    "song": "Honky Tonk City",
+    "artist": "Braxton Keith",
+    "dance": "Easy Tonight",
+    "link": "https://www.copperknob.co.uk/stepsheets/159856/easy-tonight"
+  },
+  {
+    "song": "Houdini",
+    "artist": "Eminem",
+    "dance": "Houdini",
+    "link": "https://www.copperknob.co.uk/stepsheets/184628/houdini"
+  },
+  {
+    "song": "Hysteria",
+    "artist": "Def Leppard",
+    "dance": "The Shadow - MODIFIED (Partner Dance)",
+    "link": "https://www.copperknob.co.uk/stepsheets/37762/the-shadow-p"
+  },
+  {
+    "song": "I Had Some Help",
+    "artist": "Post Malone feat Morgan Wallen",
+    "dance": "Had Some Help",
+    "link": "https://www.copperknob.co.uk/stepsheets/182860/had-some-help"
+  },
+  {
+    "song": "I Like It",
+    "artist": "Alesso & Nate Smith",
+    "dance": "Back2Back",
+    "link": "https://www.copperknob.co.uk/stepsheets/185106/back2back"
+  },
+  {
+    "song": "I'm In A Hurry (And Don't Know Why)",
+    "artist": "Alabama",
+    "dance": "Something In The Water",
+    "link": "https://www.copperknob.co.uk/stepsheets/82603/something-in-the-water"
+  },
+  {
+    "song": "It Ain't My Fault",
+    "artist": "Brothers Osborne",
+    "dance": "It Ain't My Fault",
+    "link": "https://www.copperknob.co.uk/stepsheets/119201/it-aint-my-fault"
+  },
+  {
+    "song": "Jump",
+    "artist": "Flo Rida (feat. Nelly Furtado)",
+    "dance": "Come on and Jump",
+    "link": "https://www.copperknob.co.uk/stepsheets/160699/come-on-and-jump"
+  },
+  {
+    "song": "Kerosene",
+    "artist": "Miranda Lambert",
+    "dance": "Kerosene",
+    "link": "https://www.copperknob.co.uk/stepsheets/26709/kerosene"
+  },
+  {
+    "song": "Kickin' Up Mud",
+    "artist": "The Lacs",
+    "dance": "Itsy Bitsy Spider Dance",
+    "link": "https://www.copperknob.co.uk/stepsheets/97827/itsy-bitsy-spider-dance"
+  },
+  {
+    "song": "Kiss A Girl",
+    "artist": "Keith Urban",
+    "dance": "Longbranch (Partner Dance)",
+    "link": "https://www.copperknob.co.uk/stepsheets/28823/longbranch-hustle-p"
+  },
+  {
+    "song": "Last Night (VAVO X DLAY Remix)",
+    "artist": "Morgan Wallen",
+    "dance": "My Last Night",
+    "link": "https://www.copperknob.co.uk/stepsheets/172522/my-last-night"
+  },
+  {
+    "song": "Lay Low",
+    "artist": "Josh Turner",
+    "dance": "Lay Low (P)",
+    "link": "https://www.copperknob.co.uk/stepsheets/102810/lay-low-lp"
+  },
+  {
+    "song": "Lil Bit",
+    "artist": "Nelly & Florida Georgia Line",
+    "dance": "Lil Bit",
+    "link": "https://www.copperknob.co.uk/stepsheets/146330/lil-bit"
+  },
+  {
+    "song": "Lit",
+    "artist": "Trace Adkins",
+    "dance": "Lit",
+    "link": "https://www.copperknob.co.uk/stepsheets/113776/lit"
+  },
+  {
+    "song": "Man! I Feel Like A Woman! (Real Hypha Remix)",
+    "artist": "Shania Twain",
+    "dance": "Shirts and Skirts",
+    "link": "https://www.copperknob.co.uk/stepsheets/203234/shirts-and-skirts"
+  },
+  {
+    "song": "MGNO",
+    "artist": "Russell Dickerson",
+    "dance": "MGNO",
+    "link": "https://www.copperknob.co.uk/stepsheets/122388/mgno"
+  },
+  {
+    "song": "Miles On It",
+    "artist": "Marshmello & Kane Brown",
+    "dance": "Miles On It",
+    "link": "https://www.copperknob.co.uk/stepsheets/182749/miles-on-it"
+  },
+  {
+    "song": "Modern Day Bonnie & Clyde",
+    "artist": "Travis Tritt",
+    "dance": "Long Road To Richmond",
+    "link": "https://www.copperknob.co.uk/stepsheets/28804/long-road-to-richmond"
+  },
+  {
+    "song": "More (RedOne Jimmy Joker Remix)",
+    "artist": "Usher",
+    "dance": "Bring Out The Fire",
+    "link": "https://www.copperknob.co.uk/stepsheets/180726/bring-out-the-fire"
+  },
+  {
+    "song": "Must Be The Country",
+    "artist": "Colt Ford feat. Dillon Carmichael",
+    "dance": "Must Be The Country",
+    "link": "https://www.copperknob.co.uk/stepsheets/171394/must-be-the-country"
+  },
+  {
+    "song": "My Maria",
+    "artist": "Brooks & Dunn",
+    "dance": "My Maria",
+    "link": "https://www.copperknob.co.uk/stepsheets/31669/my-maria"
+  },
+  {
+    "song": "Neon Moon",
+    "artist": "Brooks & Dunn",
+    "dance": "El Paso (partner)",
+    "link": "https://m.youtube.com/watch?v=SxhSfkyigcM"
+  },
+  {
+    "song": "Nothing But You",
+    "artist": "Leaving Austin",
+    "dance": "Nothing But You",
+    "link": "https://www.copperknob.co.uk/stepsheets/131385/nothing-but-you"
+  },
+  {
+    "song": "Now Or Never",
+    "artist": "Pitbull & Bon Jovi",
+    "dance": "Now Or Never",
+    "link": "https://www.copperknob.co.uk/stepsheets/199385/now-or-never"
+  },
+  {
+    "song": "One More",
+    "artist": "James Johnston",
+    "dance": "One More",
+    "link": "https://www.copperknob.co.uk/stepsheets/203233/one-more"
+  },
+  {
+    "song": "One Thing At A Time",
+    "artist": "Morgan Wallen",
+    "dance": "Half Stoned",
+    "link": "https://www.copperknob.co.uk/stepsheets/167646/half-stoned"
+  },
+  {
+    "song": "P.Y.T. (Pretty Young Thing)",
+    "artist": "Michael Jackson",
+    "dance": "PYT",
+    "link": "https://www.copperknob.co.uk/stepsheets/182116/pyt"
+  },
+  {
+    "song": "Perm",
+    "artist": "Bruno Mars",
+    "dance": "Smooth Funk",
+    "link": "https://www.copperknob.co.uk/stepsheets/118462/smooth-funk"
+  },
+  {
+    "song": "Pontoon",
+    "artist": "Little Big Town",
+    "dance": "Pontoon",
+    "link": "https://www.copperknob.co.uk/stepsheets/87973/pontoon"
+  },
+  {
+    "song": "Right Round",
+    "artist": "Flo Rida",
+    "dance": "Stomp Like Hell",
+    "link": "https://www.copperknob.co.uk/stepsheets/117107/stomp-like-hell"
+  },
+  {
+    "song": "Rodeo",
+    "artist": "Lenny Cooper",
+    "dance": "Rodeo",
+    "link": "https://www.copperknob.co.uk/stepsheets/155234/rodeo"
+  },
+  {
+    "song": "Roller Coaster",
+    "artist": "Luke Bryan",
+    "dance": "The Shadow SC Version (Partner Dance)",
+    "link": "https://www.copperknob.co.uk/stepsheets/37762/the-shadow-p"
+  },
+  {
+    "song": "Save a Horse (Ride a Cowboy)",
+    "artist": "Big & Rich",
+    "dance": "Ride Em' Cowboy",
+    "link": "https://www.copperknob.co.uk/stepsheets/36021/ride-em-cowboy"
+  },
+  {
+    "song": "Sax",
+    "artist": "Fleur East",
+    "dance": "Play That Sax",
+    "link": "https://www.copperknob.co.uk/stepsheets/121390/play-that-sax"
+  },
+  {
+    "song": "Scream",
+    "artist": "Usher",
+    "dance": "Ooh Baby Baby",
+    "link": "https://www.copperknob.co.uk/stepsheets/166697/ooh-baby-baby"
+  },
+  {
+    "song": "She Had Me At Heads Carolina",
+    "artist": "Cole Swindell",
+    "dance": "Flip a Quarter",
+    "link": "https://www.copperknob.co.uk/stepsheets/159976/flip-a-quarter"
+  },
+  {
+    "song": "Something In Your Mouth",
+    "artist": "Nickelback",
+    "dance": "Turbo Twang",
+    "link": "https://www.copperknob.co.uk/stepsheets/44142/turbo-twang"
+  },
+  {
+    "song": "Somewhere With You",
+    "artist": "Kenny Chesney",
+    "dance": "Somewhere With You",
+    "link": "https://www.copperknob.co.uk/stepsheets/81177/somewhere-with-you"
+  },
+  {
+    "song": "Soul (R3HAB Remix)",
+    "artist": "Lee Brice, Blanco Brown, R3HAB",
+    "dance": "Moses Roses Toeses",
+    "link": "https://www.copperknob.co.uk/stepsheets/146758/moses-roses-toeses"
+  },
+  {
+    "song": "Starships",
+    "artist": "Nicki Minaj",
+    "dance": "Who's Up All Night?",
+    "link": "https://www.copperknob.co.uk/stepsheets/130124/whos-up-all-night"
+  },
+  {
+    "song": "Stomp Like Hell",
+    "artist": "The Moonshine Bandits",
+    "dance": "Stomp Like Hell",
+    "link": "https://www.copperknob.co.uk/stepsheets/117107/stomp-like-hell"
+  },
+  {
+    "song": "Straight Line",
+    "artist": "Keith Urban",
+    "dance": "Straight Line",
+    "link": "https://www.copperknob.co.uk/stepsheets/179393/straight-line"
+  },
+  {
+    "song": "Suntan City",
+    "artist": "Luke Bryan",
+    "dance": "Sittin' Pretty",
+    "link": "https://www.copperknob.co.uk/stepsheets/92504/sittin-pretty"
+  },
+  {
+    "song": "Supa Sexxy",
+    "artist": "Charlie Wilson , T-Pain, Jamie Foxx",
+    "dance": "Supa Sexxy",
+    "link": "https://www.youtube.com/watch?v=75JMglPRWpw"
+  },
+  {
+    "song": "T.R.O.U.B.L.E",
+    "artist": "Travis Tritt",
+    "dance": "Sweetheart Schottische (Partner Dance)",
+    "link": "https://www.youtube.com/watch?v=yBLulGn1vUQ"
+  },
+  {
+    "song": "Tangled Up",
+    "artist": "Billy Currington",
+    "dance": "Rose Garden",
+    "link": "https://www.copperknob.co.uk/stepsheets/36689/rose-garden"
+  },
+  {
+    "song": "Texas",
+    "artist": "Blake Shelton",
+    "dance": "Cruisin'",
+    "link": "https://www.copperknob.co.uk/stepsheets/59086/cruisin"
+  },
+  {
+    "song": "Texas Time",
+    "artist": "Keith Urban",
+    "dance": "Back On Texas Time",
+    "link": "https://www.copperknob.co.uk/stepsheets/125274/back-on-texas-time"
+  },
+  {
+    "song": "There Was This Girl",
+    "artist": "Riley Green",
+    "dance": "There Was This Girl",
+    "link": "https://www.copperknob.co.uk/stepsheets/130893/there-was-this-girl"
+  },
+  {
+    "song": "This Is It",
+    "artist": "Oh The Larceny",
+    "dance": "Ready For It (This Is It)",
+    "link": "https://www.copperknob.co.uk/stepsheets/164261/ready-for-it-this-is-it"
+  },
+  {
+    "song": "Turn All The Lights On",
+    "artist": "T-Pain (feat Ne-Yo)",
+    "dance": "TatLO",
+    "link": "https://www.copperknob.co.uk/stepsheets/177826/tatlo"
+  },
+  {
+    "song": "Vibe",
+    "artist": "Mullally",
+    "dance": "The Vibe",
+    "link": "https://www.copperknob.co.uk/stepsheets/142214/the-vibe"
+  },
+  {
+    "song": "Buttons",
+    "artist": "Pussycat Dolls (feat. Snoop Dogg)",
+    "dance": "The Vibe",
+    "link": "https://www.copperknob.co.uk/stepsheets/142214/the-vibe"
+  },
+  {
+    "song": "Walkin' The Country",
+    "artist": "Keith Urban & The Ranch",
+    "dance": "Country Walkin'",
+    "link": "https://www.copperknob.co.uk/stepsheets/59415/country-walkin"
+  },
+  {
+    "song": "We Are Tonight",
+    "artist": "Billy Currington",
+    "dance": "We Are Tonight",
+    "link": "https://www.copperknob.co.uk/stepsheets/95128/we-are-tonight"
+  },
+  {
+    "song": "What She Does For Me",
+    "artist": "The Moonshine Bandits",
+    "dance": "Oh My My",
+    "link": "https://www.copperknob.co.uk/stepsheets/97542/oh-my-my"
+  },
+  {
+    "song": "What Was I Thinkin'",
+    "artist": "Dierks Bentley",
+    "dance": "Wishful Thinking",
+    "link": "https://www.copperknob.co.uk/stepsheets/46851/wishful-thinking"
+  },
+  {
+    "song": "Where Ya At",
+    "artist": "Hardy",
+    "dance": "Where Ya At",
+    "link": "https://www.copperknob.co.uk/stepsheets/159330/where-ya-at"
+  },
+  {
+    "song": "Whip It",
+    "artist": "Lunchmoney Lewis & Chloe Angelides",
+    "dance": "Aces and Eights**",
+    "link": "https://www.copperknob.co.uk/stepsheets/109262/aces-and-eights"
+  },
+  {
+    "song": "Who's Up?",
+    "artist": "LunchMoney Lewis",
+    "dance": "Who's Up All Night?",
+    "link": "https://www.copperknob.co.uk/stepsheets/130124/whos-up-all-night"
+  },
+  {
+    "song": "Why Don't We Just Dance",
+    "artist": "Josh Turner",
+    "dance": "Wooden Nickle (Partner Dance)",
+    "link": "https://youtu.be/3j80-u-kOzQ"
+  },
+  {
+    "song": "You Look Good In My Shirt",
+    "artist": "Keith Urban",
+    "dance": "You Look Good In My Shirt",
+    "link": "https://www.copperknob.co.uk/stepsheets/47529/you-look-good-in-my-shirt"
+  }
 ]
