@@ -79,18 +79,6 @@
     "link": "https://www.copperknob.co.uk/stepsheets/154517/gives-me-shivers"
   },
   {
-    "song": "Austin (Boots Stop Workin')",
-    "artist": "Dasha",
-    "dance": "Austin",
-    "link": "https://www.copperknob.co.uk/stepsheets/179724/austin"
-  },
-  {
-    "song": "Barefoot and Buckwild",
-    "artist": "Lauren Alaina",
-    "dance": "Summer Celebration",
-    "link": "https://www.copperknob.co.uk/stepsheets/93222/summer-celebration"
-  },
-  {
     "song": "Back Then Right Now",
     "artist": "Tyler Hubbard",
     "dance": "Back Then Right Now",
@@ -109,16 +97,22 @@
     "link": "https://www.copperknob.co.uk/stepsheets/100226/bang-bang-ez"
   },
   {
-    "song": "Big And Chunky",
-    "artist": "will.i.am",
-    "dance": "Bang Bang (EZ)",
-    "link": "https://www.copperknob.co.uk/stepsheets/150148/infectious"
+    "song": "Barefoot and Buckwild",
+    "artist": "Lauren Alaina",
+    "dance": "Summer Celebration",
+    "link": "https://www.copperknob.co.uk/stepsheets/93222/summer-celebration"
   },
   {
     "song": "Beers Ago",
     "artist": "Toby Keith",
     "dance": "Make You Mine",
     "link": "https://www.copperknob.co.uk/stepsheets/111935/make-you-mine"
+  },
+  {
+    "song": "Big And Chunky",
+    "artist": "will.i.am",
+    "dance": "Bang Bang (EZ)",
+    "link": "https://www.copperknob.co.uk/stepsheets/150148/infectious"
   },
   {
     "song": "Boot Scootin' Boogie",
@@ -131,12 +125,6 @@
     "artist": "803Fresh",
     "dance": "Boots on the Ground (With Clacker Fan)",
     "link": "https://www.copperknob.co.uk/stepsheets/191535/boots-on-the-ground-with-clacker-fan"
-  },
-  {
-    "song": "Boys",
-    "artist": "Lizzo",
-    "dance": "Boys",
-    "link": "https://www.copperknob.co.uk/stepsheets/134055/boys"
   },
   {
     "song": "Brand New Girlfriend",
@@ -161,18 +149,6 @@
     "artist": "Pussycat Dolls (feat. Snoop Dogg)",
     "dance": "The Vibe",
     "link": "https://www.copperknob.co.uk/stepsheets/142214/the-vibe"
-  },
-  {
-    "song": "Buy My Own Drinks",
-    "artist": "Runaway June",
-    "dance": "Buy My Own Drinks",
-    "link": "https://www.copperknob.co.uk/stepsheets/137356/buy-my-own-drinks"
-  },
-  {
-    "song": "Buzzkill",
-    "artist": "Lanie Gardner",
-    "dance": "The Buzzkill!",
-    "link": "https://www.copperknob.co.uk/stepsheets/191671/the-buzzkill"
   },
   {
     "song": "C'est La Vie",
@@ -205,16 +181,16 @@
     "link": "https://www.copperknob.co.uk/stepsheets/92079/rocket-to-the-sun"
   },
   {
+    "song": "Church",
+    "artist": "T-Pain (feat. Teddy Verseti)",
+    "dance": "Rude Dude",
+    "link": "https://www.copperknob.co.uk/stepsheets/145588/rude-dude"
+  },
+  {
     "song": "Club Can't Handle Me",
     "artist": "Flo Rida, David Guetta",
     "dance": "MGNO",
     "link": "https://www.copperknob.co.uk/stepsheets/122388/mgno"
-  },
-  {
-    "song": "Coming Down High",
-    "artist": "Warren Zeiders",
-    "dance": "Coming Down High",
-    "link": "https://www.copperknob.co.uk/stepsheets/178574/coming-down-high"
   },
   {
     "song": "Country Girl (Shake It For Me)",
@@ -277,10 +253,22 @@
     "link": "https://www.copperknob.co.uk/stepsheets/187716/delulu"
   },
   {
+    "song": "Descarada",
+    "artist": "Pitbull",
+    "dance": "Descarada",
+    "link": "https://www.copperknob.co.uk/stepsheets/83281/descarada"
+  },
+  {
     "song": "Dem Jeans",
     "artist": "Chingy ft Jermaine Dupri",
     "dance": "Dem Jeans",
     "link": "https://www.copperknob.co.uk/stepsheets/90164/dem-jeans"
+  },
+  {
+    "song": "Dirty Girl (feat. Sarah Ross & Young Gunner)",
+    "artist": "Lenny Cooper",
+    "dance": "Get Dirty",
+    "link": "https://www.copperknob.co.uk/stepsheets/163085/get-dirty"
   },
   {
     "song": "Do It",
@@ -386,7 +374,7 @@
   },
   {
     "song": "Get Freaky",
-    "artist": "Play-N-Skillz (ft. Pitbull)",
+    "artist": "Play-N-Skillz (feat. Pitbull)",
     "dance": "Freaky Skillz",
     "link": "https://www.copperknob.co.uk/stepsheets/73796/freaky-skillz"
   },
@@ -413,6 +401,18 @@
     "artist": "Little Texas",
     "dance": "God Blessed Texas",
     "link": "https://www.copperknob.co.uk/stepsheets/53249/god-blessed-texas"
+  },
+  {
+    "song": "Going Out Like That (Bummerman Remix)",
+    "artist": "Reba McEntire",
+    "dance": "Out Like That",
+    "link": "https://www.copperknob.co.uk/stepsheets/105818/out-like-that"
+  },
+  {
+    "song": "Gone Gone Gone",
+    "artist": "Casey Barnes",
+    "dance": "Hot Chilli Mama",
+    "link": "https://www.copperknob.co.uk/stepsheets/155943/hot-chilli-mama"
   },
   {
     "song": "Good Time",
@@ -781,6 +781,18 @@
     "link": "https://www.copperknob.co.uk/stepsheets/154517/gives-me-shivers"
   },
   {
+    "song": "Sin Wagon",
+    "artist": "Dixie Chicks",
+    "dance": "Lightning Polka",
+    "link": "https://www.copperknob.co.uk/stepsheets/28044/lightning-polka"
+  },
+  {
+    "song": "Slow Low",
+    "artist": "Jason Derulo",
+    "dance": "Baby Slow Down",
+    "link": "https://www.copperknob.co.uk/stepsheets/196027/baby-slow-down"
+  },
+  {
     "song": "Something In Your Mouth",
     "artist": "Nickelback",
     "dance": "Turbo Twang",
@@ -809,6 +821,12 @@
     "artist": "Nicki Minaj",
     "dance": "Who's Up All Night?",
     "link": "https://www.copperknob.co.uk/stepsheets/130124/whos-up-all-night"
+  },
+  {
+    "song": "Stetson",
+    "artist": "Walker Hayes",
+    "dance": "Stetson",
+    "link": "https://www.copperknob.co.uk/stepsheets/173885/stetson"
   },
   {
     "song": "Stomp Like Hell",
@@ -841,6 +859,12 @@
     "link": "https://www.youtube.com/watch?v=yBLulGn1vUQ"
   },
   {
+    "song": "Take It Off",
+    "artist": "Kesha",
+    "dance": "Take It Off",
+    "link": "https://www.copperknob.co.uk/stepsheets/172895/take-it-off"
+  },
+  {
     "song": "Tangled Up",
     "artist": "Billy Currington",
     "dance": "Rose Garden",
@@ -871,6 +895,12 @@
     "link": "https://www.copperknob.co.uk/stepsheets/130893/there-was-this-girl"
   },
   {
+    "song": "Third Rock From The Sun",
+    "artist": "Joe Diffie",
+    "dance": "Walk The Line",
+    "link": "https://www.copperknob.co.uk/stepsheets/45138/walk-the-line"
+  },
+  {
     "song": "This Is It",
     "artist": "Oh The Larceny",
     "dance": "Ready For It (This Is It)",
@@ -883,16 +913,34 @@
     "link": "https://www.copperknob.co.uk/stepsheets/154517/gives-me-shivers"
   },
   {
+    "song": "Tráfico",
+    "artist": "Casely",
+    "dance": "Bumper to Bumper",
+    "link": "https://www.copperknob.co.uk/stepsheets/198583/bumper-to-bumper"
+  },
+  {
     "song": "Turn All The Lights On",
     "artist": "T-Pain (feat Ne-Yo)",
     "dance": "TatLO",
     "link": "https://www.copperknob.co.uk/stepsheets/177826/tatlo"
   },
   {
+    "song": "Turn Around (5,4,3,2,1)",
+    "artist": "Flo Rida",
+    "dance": "Countdown",
+    "link": "https://www.copperknob.co.uk/stepsheets/167265/countdown"
+  },
+  {
     "song": "Vibe",
     "artist": "Mullally",
     "dance": "The Vibe",
     "link": "https://www.copperknob.co.uk/stepsheets/142214/the-vibe"
+  },
+  {
+    "song": "Wagon Wheel",
+    "artist": "Darius Rucker",
+    "dance": "Rockin' The Wagon Wheel",
+    "link": "https://www.copperknob.co.uk/stepsheets/92114/rockin-the-wagon-wheel"
   },
   {
     "song": "Walkin' The Country",
