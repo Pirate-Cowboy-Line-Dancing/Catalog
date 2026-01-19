@@ -30,6 +30,11 @@
     background: var(--card, #111720) !important;
     border-top: 1px solid #1f2a3c !important;
     z-index: 999 !important;
+    transform: translateY(-105%) !important;  /* hidden by default */
+  }
+
+  /* Only visible when toggled open by nav.js */
+  .pcld-nav__panel.is-open {
     transform: translateY(0) !important;
   }
 
