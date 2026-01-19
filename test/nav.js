@@ -100,6 +100,64 @@
     if (t && t.tagName === "A") toggleMenu(false);
   });
 
+  
+// Helpers
+function closeMenu() {
+  const panel = document.querySelector('.pcld-nav__panel');
+  const toggle = document.querySelector('.pcld-nav__toggle');
+  if (!panel) return;
+  panel.classList.remove('is-open');
+  panel.setAttribute('aria-hidden', 'true');
+  if (toggle) toggle.setAttribute('aria-expanded', 'false');
+  document.documentElement.classList.remove('pcld-no-scroll');
+  document.body.classList.remove('pcld-no-scroll');
+}
+function openMenu() {
+  const panel = document.querySelector('.pcld-nav__panel');
+  const toggle = document.querySelector('.pcld-nav__toggle');
+  if (!panel) return;
+  panel.classList.add('is-open');
+  panel.setAttribute('aria-hidden', 'false');
+  if (toggle) toggle.setAttribute('aria-expanded', 'true');
+  document.documentElement.classList.add('pcld-no-scroll');
+  document.body.classList.add('pcld-no-scroll');
+}
+function isOpen() {
+  const panel = document.querySelector('.pcld-nav__panel');
+  return panel && panel.classList.contains('is-open');
+}
+
+// Toggle button
+const toggleBtn = document.querySelector('.pcld-nav__toggle');
+if (toggleBtn) {
+  toggleBtn.addEventListener('click', () => (isOpen() ? closeMenu() : openMenu()));
+}
+
+// Close when clicking outside the panel
+document.addEventListener('click', (e) => {
+  const panel = document.querySelector('.pcld-nav__panel');
+  const toggle = document.querySelector('.pcld-nav__toggle');
+  if (!panel || !isOpen()) return;
+  const clickInsidePanel = panel.contains(e.target);
+  const clickToggle = toggle && toggle.contains(e.target);
+  if (!clickInsidePanel && !clickToggle) closeMenu();
+});
+
+// Close on Esc
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && isOpen()) closeMenu();
+});
+
+// Close if screen becomes desktop-sized (e.g., rotation)
+const mq = window.matchMedia('(min-width: 641px)');
+mq.addEventListener?.('change', () => { if (mq.matches) closeMenu(); });
+window.addEventListener('resize', () => { if (window.innerWidth >= 641) closeMenu(); });
+
+// Close after selecting a link in the panel
+document.querySelector('.pcld-nav__panel')?.addEventListener('click', (e) => {
+  if (e.target && e.target.tagName === 'A') closeMenu();
+});
+
   right.appendChild(linkRow);
   right.appendChild(menuBtn);
   nav.appendChild(wrap);
