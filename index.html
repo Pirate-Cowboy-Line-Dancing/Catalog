@@ -1,11 +1,12 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Pirate Cowboy Line Dancing</title>
-<meta name="description" content="Searchable, sortable, paginated list for Pirate Cowboy Line Dancing. Data loaded from JSON." />
+<meta content="Searchable, sortable, paginated list for Pirate Cowboy Line Dancing. Data loaded from JSON." name="description"/>
 <style>
   :root{
     --bg:#0b0f14; --card:#111720; --ink:#e9f1ff; --ink-dim:#b7c5dd;
@@ -17,7 +18,7 @@
   .wrap{max-width:1100px;margin:0 auto;padding:clamp(12px,3vw,24px)}
   .header-row{display:flex;gap:16px;align-items:center}
   .logo{
-    width:150px;height:150px;object-fit:contain;border-radius:50%;
+    width:120px;height:120px;object-fit:contain;border-radius:50%;
     background:#0c121a;border:1px solid #1f2a3c;flex:0 0 auto;
   }
   h1{margin:.1rem 0 .25rem;font-weight:800;letter-spacing:.2px}
@@ -59,116 +60,104 @@
   @media (max-width: 800px){
     .toolbar{grid-template-columns:1fr}
     table{min-width:640px}
-    .logo{width:60px;height:60px}
+    .logo{width:100px;height:100px}
   }
 </style>
 </head>
 <body>
 <header>
-  <div class="wrap">
-    <div class="header-row">
-      <img
-        src="Pirate_Cowboy_Transparent_Circle.png"
-        alt="PCLD"
-        class="logo"
-      />
-      <div>
-        <h1>Pirate Cowboy Line Dancing</h1>
-        <div class="sub">
-          Catalog of dances for Upstate South Carolina.<br> 
-          Search by Song, Artist, or Dance.<br>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="wrap">
+<div class="header-row">
+<img alt="PCLD" class="logo" src="Pirate_Cowboy_Transparent_Circle.png"/>
+<div>
+<h1>Pirate Cowboy Line Dancing</h1>
+<div class="sub">
+  Upstate South Carolina Dances.<br> 
+  Search by Song, Artist, or Dance.<br>
+</div>
+</div>
+</div>
+</div>
 </header>
-
 <main class="wrap">
-  <!-- DATA SOURCE (auto-hides on success) -->
-  <section id="dataSection" class="panel" aria-labelledby="data-title">
-    <h2 id="data-title" style="margin:0 0 .5rem;">Data Source</h2>
-    <div id="dataStatus" class="note">Attempting to load <code>data.json</code>…</div>
-    <div class="actions">
-      <input id="filePicker" type="file" accept="application/json" hidden />
-      <button id="pickBtn" class="btn" type="button">Load JSON (choose file)</button>
-      <button id="reloadBtn" class="btn-ghost btn" type="button" title="Retry fetching data.json">Retry auto‑load</button>
-    </div>
-    <p class="note" style="margin-top:.5rem">
+<!-- DATA SOURCE (auto-hides on success) -->
+<section aria-labelledby="data-title" class="panel" id="dataSection">
+<h2 id="data-title" style="margin:0 0 .5rem;">Data Source</h2>
+<div class="note" id="dataStatus">Attempting to load <code>data.json</code>…</div>
+<div class="actions">
+<input accept="application/json" hidden="" id="filePicker" type="file"/>
+<button class="btn" id="pickBtn" type="button">Load JSON (choose file)</button>
+<button class="btn-ghost btn" id="reloadBtn" title="Retry fetching data.json" type="button">Retry auto‑load</button>
+</div>
+<p class="note" style="margin-top:.5rem">
       Tip: When opened via <code>file://</code>, browsers may block auto‑loading.
       Use <b>Load JSON</b> to choose the file, or host <code>index.html</code> + <code>data.json</code> together.
     </p>
-  </section>
-
-  <!-- SEARCH -->
-  <section class="panel" aria-labelledby="search-title">
-    <h2 id="search-title" style="margin:0 0 .5rem;">Search</h2>
-    <div class="toolbar" role="group" aria-label="Search filters">
-      <div class="field">
-        <label for="qSong">Song</label>
-        <input id="qSong" type="search" placeholder="e.g., Damn I Love Miami" autocomplete="off" />
-      </div>
-      <div class="field">
-        <label for="qArtist">Artist</label>
-        <input id="qArtist" type="search" placeholder="e.g., Pitbull" autocomplete="off" />
-      </div>
-      <div class="field">
-        <label for="qDance">Dance</label>
-        <input id="qDance" type="search" placeholder="e.g., Pieces To The Puzzle" autocomplete="off" />
-      </div>
-    </div>
-    <div class="actions">
-      <button class="btn" id="clearFilters" type="button" title="Clear all filters">Clear filters</button>
-      <span class="note" id="rowCount" role="status" aria-live="polite"></span>
-    </div>
-  </section>
-
-  <!-- CATALOG + CONTROLS -->
-  <section class="panel" aria-labelledby="table-title">
-    <h2 id="table-title" style="margin:0 0 .75rem;">Catalog</h2>
-
-    <!-- Page controls -->
-    <div class="actions" style="justify-content: space-between; align-items:center; gap:.75rem; flex-wrap:wrap">
-      <div>
-        <label for="pageSize" class="note" style="margin-right:.5rem;">Rows per page:</label>
-        <select id="pageSize">
-          <option value="20" selected>20</option>
-          <option value="50">50</option>
-          <option value="100">100</option>
-          <option value="all">All</option>
-        </select>
-      </div>
-
-      <div id="pager" class="note" style="display:flex; gap:.25rem; align-items:center;">
-        <button id="firstPage" class="btn" type="button" title="First page">« First</button>
-        <button id="prevPage"  class="btn" type="button" title="Previous page">‹ Prev</button>
-        <span id="pageInfo" style="padding:.2rem .6rem;border:1px solid #2a3950;border-radius:.4rem;background:#0f1722">
+</section>
+<!-- SEARCH -->
+<section aria-labelledby="search-title" class="panel">
+<h2 id="search-title" style="margin:0 0 .5rem;">Search</h2>
+<div aria-label="Search filters" class="toolbar" role="group">
+<div class="field">
+<label for="qSong">Song</label>
+<input autocomplete="off" id="qSong" placeholder="e.g., Damn I Love Miami" type="search"/>
+</div>
+<div class="field">
+<label for="qArtist">Artist</label>
+<input autocomplete="off" id="qArtist" placeholder="e.g., Pitbull" type="search"/>
+</div>
+<div class="field">
+<label for="qDance">Dance</label>
+<input autocomplete="off" id="qDance" placeholder="e.g., Pieces To The Puzzle" type="search"/>
+</div>
+</div>
+<div class="actions">
+<button class="btn" id="clearFilters" title="Clear all filters" type="button">Clear filters</button>
+<span aria-live="polite" class="note" id="rowCount" role="status"></span>
+</div>
+</section>
+<!-- CATALOG + CONTROLS -->
+<section aria-labelledby="table-title" class="panel">
+<h2 id="table-title" style="margin:0 0 .75rem;">Catalog</h2>
+<!-- Page controls -->
+<div class="actions" style="justify-content: space-between; align-items:center; gap:.75rem; flex-wrap:wrap">
+<div>
+<label class="note" for="pageSize" style="margin-right:.5rem;">Rows per page:</label>
+<select id="pageSize">
+<option value="20">20</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option selected="" value="all">All</option>
+</select>
+</div>
+<div class="note" id="pager" style="display:flex; gap:.25rem; align-items:center;">
+<button class="btn" id="firstPage" title="First page" type="button">« First</button>
+<button class="btn" id="prevPage" title="Previous page" type="button">‹ Prev</button>
+<span id="pageInfo" style="padding:.2rem .6rem;border:1px solid #2a3950;border-radius:.4rem;background:#0f1722">
           Page 1 of 1
         </span>
-        <button id="nextPage"  class="btn" type="button" title="Next page">Next ›</button>
-        <button id="lastPage"  class="btn" type="button" title="Last page">Last »</button>
-      </div>
-    </div>
-
-    <div class="table-wrap" role="region" aria-label="Dance list">
-      <table id="danceTable">
-        <thead>
-          <tr>
-            <th class="sortable" data-key="song"   scope="col" aria-sort="none" tabindex="0">Song <span class="arrow" aria-hidden="true"></span></th>
-            <th class="sortable" data-key="artist" scope="col" aria-sort="none" tabindex="0">Artist <span class="arrow" aria-hidden="true"></span></th>
-            <th class="sortable" data-key="dance"  scope="col" aria-sort="none" tabindex="0">Dance <span class="arrow" aria-hidden="true"></span></th>
-            <th scope="col" class="tight">Step Sheets & Videos</th>
-          </tr>
-        </thead>
-        <tbody id="tbody"><tr><td colspan="4" class="muted">No data loaded yet.</td></tr></tbody>
-      </table>
-    </div>
-  </section>
+<button class="btn" id="nextPage" title="Next page" type="button">Next ›</button>
+<button class="btn" id="lastPage" title="Last page" type="button">Last »</button>
+</div>
+</div>
+<div aria-label="Dance list" class="table-wrap" role="region">
+<table id="danceTable">
+<thead>
+<tr>
+<th aria-sort="none" class="sortable" data-key="song" scope="col" tabindex="0">Song <span aria-hidden="true" class="arrow"></span></th>
+<th aria-sort="none" class="sortable" data-key="artist" scope="col" tabindex="0">Artist <span aria-hidden="true" class="arrow"></span></th>
+<th aria-sort="none" class="sortable" data-key="dance" scope="col" tabindex="0">Dance <span aria-hidden="true" class="arrow"></span></th>
+<th class="tight" scope="col">Step Sheets &amp; Videos</th>
+</tr>
+</thead>
+<tbody id="tbody"><tr><td class="muted" colspan="4">No data loaded yet.</td></tr></tbody>
+</table>
+</div>
+</section>
 </main>
-
 <footer class="wrap">
-  <small>© 2026 by Pirate Cowboy Line Dancing. All rights reserved.</small>
+<small>© 2026 by Pirate Cowboy Line Dancing. All rights reserved.</small>
 </footer>
-
 <script>
 (() => {
   // -------------------- State --------------------
@@ -178,7 +167,7 @@
 
   // Pagination state
   /** @type {number|"all"} */
-  let pageSize = 20; // 20 | 50 | 100 | "all"
+  let pageSize = "all"; // 20 | 50 | 100 | "all"
   let currentPage = 1; // 1-based
 
   // -------------------- Helpers ------------------
@@ -332,6 +321,8 @@
 
   // -------------------- Page controls -----------
   $("#pageSize").addEventListener("change", setPageSizeFromSelect);
+  $("#pageSize").value = "all"; // default to All
+  setPageSizeFromSelect();
   $("#firstPage").addEventListener("click", ()=>{ currentPage=1; render(); });
   $("#prevPage").addEventListener("click",  ()=>{ currentPage=Math.max(1,currentPage-1); render(); });
   $("#nextPage").addEventListener("click",  ()=>{ currentPage=currentPage+1; render(); });
