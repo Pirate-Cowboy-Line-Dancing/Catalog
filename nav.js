@@ -1,7 +1,7 @@
 
 // nav.js — responsive nav with mobile drawer and no word-per-line title
 (function () {
-  const LOGO_SRC = "Pirate_Cowboy_Transparent_Circle.png";
+  const LOGO_SRC = "pcld-logo.png";
   const LOGO_SIZE = 50;
 
   // Create <nav>
