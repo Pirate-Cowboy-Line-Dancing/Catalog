@@ -13,9 +13,10 @@
       --card: #111720;
       --ink: #e9f1ff;
       --ink-dim: #b7c5dd;
-      --accent: #2dd4bf;
-      --accent-2: #f59e0b;
-      --danger: #ef4444;
+      /*--accent: #2dd4bf;*/
+      --accent: #9c2626;
+      --accent-2: #b7c5dd;
+      --danger: #ffffff;
     }
 
     html,
@@ -115,6 +116,18 @@
 
     .location-details p {
       margin: .2rem 0;
+    }
+
+    /* Address links use secondary accent */
+    .location-details h2 a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    /* Address links use secondary accent */
+    .location-details p a {
+      color: var(--accent-2);
+      text-decoration: underline;
     }
 
     @media (max-width: 600px) {
