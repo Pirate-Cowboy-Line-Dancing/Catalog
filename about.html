@@ -12,9 +12,10 @@
       --card: #111720;
       --ink: #e9f1ff;
       --ink-dim: #b7c5dd;
-      --accent: #2dd4bf;
-      --accent-2: #f59e0b;
-      --danger: #ef4444;
+      /*--accent: #2dd4bf;*/
+      --accent: #b02b2b;
+      --accent-2: #b7c5dd;
+      --danger: #ffffff;
     }
 
     html,
@@ -92,6 +93,11 @@
       color: var(--ink-dim)
     }
 
+  
+    .p-indent {
+      margin-left: 1.25rem;   /* indented pages */
+    }
+
     footer {
       padding: 2rem 0;
       color: #8ea6c4
@@ -138,7 +144,7 @@
     .pcld-nav__brand {
       font-weight: 800;
       white-space: nowrap;
-      /* ✅ keep title on one line */
+      /* keep title on one line */
       overflow: hidden;
       text-overflow: ellipsis;
       /* show … on very small screens */
@@ -317,9 +323,6 @@
         <!-- We’re using the small logo in the nav now; keep header clean on About -->
         <div>
           <h1>About</h1>
-          <!--
-          <div class="sub">Who we are</div>
-          -->
         </div>
       </div>
     </div>
@@ -332,51 +335,50 @@
       <p>
         Pirate Cowboy Line Dancing (PCLD) is a social dance brand and event series led by dance instructor & DJ Jason
         Messer, also known as Pirate Cowboy.<br />
+        <br />
+        <img alt="Lessons" class="logo" src="pirate-cowboy-2.png"/>
+        <br />
+
         <br />Based in Upstate South Carolina, PCLD is known for hosting large-scale DYAO dance nights centered around
         line dancing & partner dancing.
         Pirate Cowboy has been teaching dance lessons in Upstate South Carolina since 2016 at various venues and events:
-        <br />
-        <br />- Blind Horse Saloon - Greenville, SC (2017–2024)
-        <br />- The Foundry at Judson Mill - Greenville, SC (2024–present)
-        <br />- Wendell's - Anderson, SC (2016-2018, 2024–present)
-        <br />- Fall For Greenville Festival - Greenville, SC (2024, 2025)
-        <br />- Various private events and festivals
-        <br />
+        <p class="p-indent">
+        Blind Horse Saloon - <span class="muted">Greenville, SC<br />2017–2024<br /><br /></span>
+        The Foundry at Judson Mill - <span class="muted">Greenville, SC<br />2024–present<br /><br /></span>
+        Wendell's - <span class="muted">Anderson, SC<br />2016-2018, 2024–present<br /><br /></span>
+        Fall For Greenville Festival - <span class="muted">Greenville, SC<br />2024, 2025<br /><br /></span>
+        <span class="muted">Various private events and festivals</span>
+        </p>
         <br />
         Weekly Venues:
+        <p class="p-indent">
+        <a class="muted" href="https://www.foundrygvl.com/" target="_blank" rel="noopener">The Foundry at Judson Mill</a> -
+        <span class="muted">Greenville, SC<br />Wednesdays & Saturdays</span>
         <br />
-        <a href="https://www.foundrygvl.com/" target="_blank" rel="noopener">The Foundry at Judson Mill</a> -
-        Greenville, SC - Wednesdays & Saturdays
         <br />
-        <a href="https://wendellssc.com/" target="_blank" rel="noopener">Wendell's</a> - Anderson, SC - Fridays
-        <br />
+        <a class="muted" href="https://wendellssc.com/" target="_blank" rel="noopener">Wendell's</a> - 
+        <span class="muted">Anderson, SC<br />Fridays</span>
+        </p>
         <br />
         Music Variety:
+        <p class="p-indent">
+        <span class="muted">PCLD mixes country, hip-hop, pop, and rock, dancing to artists ranging from Toby Keith to Pitbull.</span>
+        </p>
         <br />
-        PCLD mixes country, hip-hop, pop, and rock, dancing to artists ranging from Toby Keith to Pitbull.
-        <br />
-        <br />
-        Facebook: <a href="https://www.facebook.com/PirateCowboyLineDancing" target="_blank" rel="noopener">Pirate
+        Facebook: <a class="muted" href="https://www.facebook.com/PirateCowboyLineDancing" target="_blank" rel="noopener">Pirate
           Cowboy Line Dancing</a><br />
-        Instagram: <a href="https://www.instagram.com/pirate.cowboy.line.dancing" target="_blank"
+        Instagram: <a class="muted" href="https://www.instagram.com/pirate.cowboy.line.dancing" target="_blank"
           rel="noopener">pirate.cowboy.line.dancing</a><br />
       </p>
-      <!--
-      <ul style="margin: .5rem 0 0; padding-left:1.25rem;">
-        <li><strong>Beginner friendly:</strong> No partner required</li>
-        <li><strong>What to expect:</strong> Teaches, demos, and social dancing</li>
-        <li><strong>How to join:</strong> Show up, say hi, and dance!</li>
-      </ul>
-      -->
-    </section>
 
-    <!-- Optional: add a second panel if you want more structure -->
-    <!--
-    <section class="panel">
-      <h2 style="margin:0 0 .5rem;">Our Approach</h2>
-      <p class="note">We keep stepsheets simple and link to videos when helpful.</p>
+      <br />
+      <img alt="Pirate Cowboy" class="logo" src="pirate-cowboy.png"/>
+      <img alt="Lessons" class="logo" src="pirate-cowboy-3.png"/>
+      <img alt="Lessons" class="logo" src="pirate-cowboy-4.png"/>
+      <img alt="Lessons" class="logo" src="pirate-cowboy-5.png"/>
+      <img alt="Lessons" class="logo" src="pirate-cowboy-6.png"/>
+      <br />
     </section>
-    -->
   </main>
 
   <!-- Footer (matches index) -->

@@ -13,9 +13,10 @@
       --card: #111720;
       --ink: #e9f1ff;
       --ink-dim: #b7c5dd;
-      --accent: #2dd4bf;
-      --accent-2: #f59e0b;
-      --danger: #ef4444;
+      /*--accent: #2dd4bf;*/
+      --accent: #9c2626;
+      --accent-2: #b7c5dd;
+      --danger: #ffffff;
     }
 
     html,
@@ -117,6 +118,18 @@
       margin: .2rem 0;
     }
 
+    /* Address links use secondary accent */
+    .location-details h2 a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    /* Address links use secondary accent */
+    .location-details p a {
+      color: var(--accent-2);
+      text-decoration: underline;
+    }
+
     @media (max-width: 600px) {
       .location {
         flex-direction: column;
@@ -163,7 +176,7 @@
     .pcld-nav__brand {
       font-weight: 800;
       white-space: nowrap;
-      /* ✅ keep title on one line */
+      /* keep title on one line */
       overflow: hidden;
       text-overflow: ellipsis;
       /* show … on very small screens */
@@ -341,9 +354,6 @@
       <div class="header-row">
         <div>
           <h1>Locations</h1>
-          <!--
-          <div class="sub">Where we teach & dance</div>
-          -->
         </div>
       </div>
     </div>
@@ -360,8 +370,11 @@
         <div class="location-details">
           <h2><a href="https://www.foundrygvl.com/" target="_blank" rel="noopener">The Foundry at Judson Mill</a></h2>
           <p class="muted">
-            701 Easley Bridge Rd, Unit 6030<br />
-            Greenville, SC 29611
+            <a href="javascript:void(0)" 
+              onclick="openMap('701 Easley Bridge Rd Unit 6030, Greenville, SC 29611')">
+              701 Easley Bridge Rd, Unit 6030<br />
+              Greenville, SC 29611
+            </a>
           </p>
 
           <p>
@@ -383,18 +396,6 @@
           <p class="note">
             <br />Note: Please review The Foundry’s concert event schedule prior to planning dance activities.
           </p>
-
-          <!--
-          <p class="note">
-            Lessons start <strong>8:30 PM</strong>.
-          </p>
-          -->
-
-          <!-- Optional: add a map link (uncomment and add place link)
-          <p>
-            https://maps.google.com/?q=The+Foundry+at+Judson+MillView on Google Maps</a>
-          </p>
-          -->
         </div>
       </div>
     </section>
@@ -407,8 +408,11 @@
         <div class="location-details">
           <h2><a href="https://wendellssc.com/" target="_blank" rel="noopener">Wendell’s</a></h2>
           <p class="muted">
-            5132 US‑29<br />
-            Anderson, SC 29626
+            <a href="javascript:void(0)"
+              onclick="openMap('5132 US-29, Anderson, SC 29626')">
+              5132 US‑29<br />
+              Anderson, SC 29626
+            </a>
           </p>
 
           <p>
@@ -421,12 +425,6 @@
           <p class="note">
             <br />Note: Please review Wendell’s concert event schedule prior to planning dance activities.
           </p>
-
-          <!-- Optional: map link
-          <p>
-            https://maps.google.com/?q=Wendell%27s+Anderson+SCView on Google Maps</a>
-          </p>
-          -->
         </div>
       </div>
     </section>
@@ -440,6 +438,22 @@
 
   <!-- Global nav (logo + links) -->
   <script src="nav.js?v=4"></script>
+
+  <script>
+    /* Opens correct map app based on device (android/apple) */
+    function openMap(address) {
+      const encoded = encodeURIComponent(address);
+      const isApple =
+        /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent);
+
+      const url = isApple
+        ? `https://maps.apple.com/?q=${encoded}`
+        : `https://www.google.com/maps/search/?api=1&query=${encoded}`;
+
+      window.open(url, '_blank');
+    }
+  </script>
+
 </body>
 
 </html>
